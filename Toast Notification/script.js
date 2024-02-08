@@ -2,10 +2,10 @@ const button = document.getElementById('button')
 const toasts = document.getElementById('toasts')
 
 const messages = [
-    '',
-    'Message Two',
-    'Message Three',
-    'Message Four',
+    'Battery Low!',
+    'Connect Your Charger!',
+    'Charging!',
+    'Charge Full!',
 ]
 
 const types = ['info', 'success', 'error']
