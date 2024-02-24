@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <form id="calc">
+      <input class="input" name="input" />
+      <br />
+      <div class="container">
+        <input class="btn" value="1" onclick="calc.input.value+=1" />
+        <input class="btn" value="2" onclick="calc.input.value+=2" />
+        <input class="btn" value="3" onclick="calc.input.value+=3" />
+        <input class="btn" value="+" onclick="calc.input.value+='+'" />
+      </div>
+      <div class="container">
+        <input class="btn" value="4" onclick="calc.input.value+=4" />
+        <input class="btn" value="5" onclick="calc.input.value+=5" />
+        <input class="btn" value="6" onclick="calc.input.value+=6" />
+        <input class="btn" value="-" onclick="calc.input.value+='-'" />
+      </div>
+      <div class="container">
+        <input class="btn" value="7" onclick="calc.input.value+=7" />
+        <input class="btn" value="8" onclick="calc.input.value+=8" />
+        <input class="btn" value="9" onclick="calc.input.value+=9" />
+        <input class="btn" value="/" onclick="calc.input.value+='/'" />
+      </div>
+      <div class="container">
+        <input class="btn" value="c" onclick="calc.input.value=' '" />
+        <input class="btn" value="0" onclick="calc.input.value+=0" />
+        <input
+          class="btn"
+          value="="
+          onclick="calc.input.value=eval(calc.input.value)"
+        />
+        <input class="btn" value="x" onclick="calc.input.value+='*'" />
+      </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
