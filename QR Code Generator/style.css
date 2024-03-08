@@ -1,0 +1,51 @@
+*{
+    
+}
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1207%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='23.845' cx='1211.77' cy='208.84' fill='url(%26quot%3b%23SvgjsLinearGradient1208%26quot%3b)'%3e%3c/circle%3e%3ccircle r='25.535' cx='254.02' cy='187.28' fill='url(%26quot%3b%23SvgjsLinearGradient1209%26quot%3b)'%3e%3c/circle%3e%3ccircle r='36.055' cx='220.78' cy='101.53' fill='url(%26quot%3b%23SvgjsLinearGradient1210%26quot%3b)'%3e%3c/circle%3e%3ccircle r='18.91' cx='1388.81' cy='156.12' fill='url(%26quot%3b%23SvgjsLinearGradient1211%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1207'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='1164.08' y1='208.84' x2='1259.46' y2='208.84' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1208'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='202.95000000000002' y1='187.28' x2='305.09000000000003' y2='187.28' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1209'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='148.67000000000002' y1='101.53' x2='292.89' y2='101.53' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1210'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='rgba(118%2c 30%2c 144%2c 1)' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1350.99' y1='156.12' x2='1426.63' y2='156.12' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1211'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    overflow: hidden;
+}
+h1{
+    color: white;
+    text-shadow: 2px 1px  pink;
+    font-size: 70px;
+}
+h2{
+    color:white;
+    text-shadow: 1px 1px pink;
+}
+#qrcontent{
+    height: 30px;
+    width: 400px;
+    background-color: pink;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+    border:3px solid blueviolet;
+    box-shadow:2px 2px grey;
+    
+}
+#qrcontent:active{
+    outline: none;
+}
+.btn{
+    background-color: pink;
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    cursor: pointer;
+    border-color: white;
+    border:3px solid blueviolet;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    box-shadow:2px 2px grey;
+    margin: 30px;
+
+}
