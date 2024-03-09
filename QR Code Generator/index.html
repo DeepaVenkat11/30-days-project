@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>QR Code Generator</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>QR CODE GENERATOR</h1>
     <h2>Enter a link to generate a QR code</h2>
     <form id="qrform">
-        <input type="text" id="qrcontent" placeholder="Paste a link" autocomplete="off">
-        <input type="submit" class="btn" value="Generate QR Code">
+      <input
+        type="text"
+        id="qrcontent"
+        placeholder="Paste a link"
+        autocomplete="off"
+      />
+      <input type="submit" class="btn" value="Generate QR Code" />
     </form>
     <div id="qr-code"></div>
-    <script src="https://cdn.jsdelivr.net/npm/qrcode@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
