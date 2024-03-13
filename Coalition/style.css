@@ -1,0 +1,207 @@
+* {
+    font-family: "Lobster", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+
+.firstPage{
+    background-image: url('bg1.jpeg');
+    background-size:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgb(51, 60, 78); 
+    height: 860px;
+}
+    
+.navbar a{
+    display: block;
+    float: right;
+    color:white;
+    padding-top: 10px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: -50px;
+    margin-right:20px;
+    text-decoration: underline;
+    font-size: 18p;
+    
+}
+.navbar a:hover{
+    display: block;
+    float: right;
+    color:black;
+    background-color: aliceblue;    
+}
+.logo img{
+    margin-top: 20px;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 250px;
+}
+h1{
+    margin-top:10px;
+    font-size: 7rem;
+    color:rgb(51, 60, 78);
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+h1 span{
+    color:rgba(63, 35, 35, 0.804);
+}
+.secondPage{
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white; 
+    height: 860px;
+    backdrop-filter: blur(20%);
+    
+}
+.thumbnails {
+    background-color:rgb(51, 60, 78,0.7);
+    margin-top: 480px;
+    height: 130px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.thumbnails img{
+    padding: 15px;px;
+   
+}
+.logoText1{
+    margin-left:100px;
+    margin-top: -45px;
+
+}
+.logoText2{
+    margin-left:100px;
+    
+
+}
+div h1{
+    font-size: 5rem;
+
+}
+div h1 span{
+    font-size: 10rem;
+
+}
+div p{
+    text-align: center;
+    align-items: center;
+    margin-left: 600px ;
+    margin-right: 600px;
+    padding:10px;
+}
+.thirdPage{
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white; 
+    height: 860px;
+    backdrop-filter: blur(20%);
+
+}
+.navbar1 a{ 
+    display: block;
+    float: left;
+    color:white;
+    padding-top: 10px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: -2px;
+    margin-right:20px;
+    margin-left: 50px;
+    font-size: 18px;
+    
+}
+.navbar1{
+    height:70px;
+    width:2000px;
+    background-color:rgb(51, 60, 78);
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+.navbar1 .active{
+    text-decoration: underline;
+    background-color:rgb(174, 172, 172,0.5);
+    text-decoration-color:white;
+    
+
+}
+.tab-1 {
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255,0.7);
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+    padding: 2px;
+   
+    color:black;
+    margin: 0 auto; /* To center horizontally */
+  }
+  .tab-1 h2{
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center; /* Align vertically */
+    padding: 2px;
+    font-size: 30px;
+    margin-top: 15px;color: rgb(51, 60, 78);
+  }
+  .navbar2 a{
+    display: block;
+    float: right;
+    color:black;
+    padding-top: 10px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: -50px;
+    margin-right:20px;
+    text-decoration: underline;
+    font-size: 18px;
+    
+  }
+  .navbar {
+    height:100px;
+  }
+  .middle{
+    height:60px;
+  }
+  .footer{
+    background-color: rgb(51, 60, 78);
+    color:rgb(69, 80, 104);
+    align-items: center;
+    justify-content: center;
+    padding-bottom:30px;
+  }
+  .footer img{
+    margin-top: 20px;
+    margin-left:150px;
+  }
+  .highlight{
+    display: flex;
+  }
+  .highlightNumber{
+    font-size: 9rem;
+    color: rgb(51, 60, 78,0.5);
+    text-indent: 0;
+    word-spacing: 0;
+    letter-spacing: -1px;
+  } 
