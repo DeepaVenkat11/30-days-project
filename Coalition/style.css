@@ -66,6 +66,14 @@ h1 span{
     backdrop-filter: blur(20%);
     
 }
+.secondPage .highlight{
+  margin-left:30%;
+}
+.secondPage p{
+  margin-left:35%;
+  margin-right:35%;
+
+}
 .thumbnails {
     background-color:rgb(51, 60, 78,0.7);
     margin-top: 480px;
@@ -79,7 +87,7 @@ h1 span{
 }
 
 .thumbnails img{
-    padding: 15px;px;
+    padding: 15px;
    
 }
 .logoText1{
@@ -132,7 +140,7 @@ div p{
 }
 .navbar1{
     height:70px;
-    width:2000px;
+    width:1900px;
     background-color:rgb(51, 60, 78);
     padding-top: 10px;
     margin-bottom: 100px;
@@ -157,13 +165,10 @@ div p{
     color:black;
     margin: 0 auto; /* To center horizontally */
   }
-  .tab-1 h2{
-    display: flex;
-    justify-content: center; /* Align horizontally */
-    align-items: center; /* Align vertically */
-    padding: 2px;
-    font-size: 30px;
-    margin-top: 15px;color: rgb(51, 60, 78);
+  .tab-1 td{
+    padding: 5px;
+    font-size: 14px;
+    
   }
   .navbar2 a{
     display: block;
@@ -183,6 +188,16 @@ div p{
   }
   .middle{
     height:60px;
+  }
+  .middle1{
+    height:160px;
+    display: flex;
+    flex-direction: row;
+    margin-left:18%;
+  }
+  .textMid p{
+    margin-top:-5%;
+    margin-left:45%;
   }
   .footer{
     background-color: rgb(51, 60, 78);
@@ -205,3 +220,143 @@ div p{
     word-spacing: 0;
     letter-spacing: -1px;
   } 
+  .logoText3, .logoText4{
+    margin-left:11%;
+  }
+  .logo2{
+    margin-top: -40px;
+  }
+
+  /* Your existing CSS styles here */
+
+/* Media queries for responsiveness */
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+  .header {
+      flex-direction: column;
+  }
+
+  .logo img {
+      margin-left: 0;
+  }
+
+  .navbar {
+      float: none;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  .navbar a {
+      display: inline-block;
+      margin: 0 10px;
+  }
+
+  .firstPage h1 {
+      font-size: 4rem;
+  }
+
+  .middle {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .middle .logoContent {
+      margin-bottom: 20px;
+  }
+
+  .navbar2 {
+      float: none;
+      text-align: center;
+  }
+
+  .secondPage .highlight {
+      margin-left: 10%;
+  }
+
+  .secondPage p {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
+  .thumbnails {
+      margin-top: 380px;
+  }
+
+  .middle1 {
+      margin-left: 10%;
+      height: auto;
+  }
+
+  .textMid p {
+      margin-left: 10%;
+      margin-top: -5%;
+  }
+
+  .navbar1 {
+      width: 90%;
+  }
+
+  .tab-1 {
+      width: 90%;
+  }
+
+  .footer img {
+      margin-left: 10%;
+  }
+}
+
+/* For even smaller screens */
+@media only screen and (max-width: 480px) {
+  .logo img {
+      width: 60px;
+      height: 60px;
+  }
+
+  .navbar a {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  .firstPage h1 {
+      font-size: 3rem;
+  }
+
+  .middle .logoContent {
+      margin-bottom: 10px;
+  }
+
+  .secondPage .highlight {
+      margin-left: 5%;
+  }
+
+  .secondPage p {
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  .thumbnails {
+      margin-top: 300px;
+  }
+
+  .middle1 {
+      margin-left: 5%;
+  }
+
+  .textMid p {
+      margin-left: 5%;
+      margin-top: -5%;
+  }
+
+  .navbar1 {
+      width: 95%;
+  }
+
+  .tab-1 {
+      width: 95%;
+  }
+
+  .footer img {
+      margin-left: 5%;
+  }
+}

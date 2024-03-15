@@ -1,8 +1,8 @@
 :root {
   --background: #c3c0ba;
   --white: #fff;
-  --one: #c3266f;
-  --two: #743578;
+  --one:rgb(233, 35, 233) ;
+  --two: rgb(16, 229, 190);
   --black: #54585d;
   --process: #a5a5a5;
 }
@@ -41,7 +41,7 @@ body {
 }
 .resume-main {
   width: 700px;
-  height: 800px;
+  height: 820px;
   background: linear-gradient(var(--one), var(--two));
   margin: 50px auto;
   box-shadow: 5px 5px 5px 5px #54585d33;
