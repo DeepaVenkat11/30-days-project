@@ -1,0 +1,46 @@
+/* Add CSS here */
+.box{
+    height:100px;
+    width:400px;
+    border:1px solid white;
+    padding-left:5px;
+    box-shadow: 0px 5px 4px rgba(142, 132, 132, 0.1);
+}
+h1{
+    font-size:17px;
+    color:grey;
+    margin-bottom:15px;
+
+}
+h6{
+    font-size:xx-small;
+    margin-bottom:10px;
+}
+
+#camera{
+    color:orange;
+    font-size:14px;
+    padding-right: 5%;
+}
+.emoji{
+    display: flex;
+    flex-direction: row;
+}
+#link {
+    color: rgb(4, 150, 207);
+    font-size: 14px;
+    padding-right: 5%;
+}
+#smile {
+    color:yellow;
+    font-size: 14px;
+    padding-right:5%;
+}
+#link:hover{
+    height:25px;
+    width:25px;
+    background-color: rgb(243, 241, 241);
+    align-items: center;
+    border-radius: 5px;
+    
+}
