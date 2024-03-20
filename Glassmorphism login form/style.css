@@ -11,6 +11,7 @@ body{
     display: flex;
     font-family: sans-serif;
     background-image: url('img.jpg');
+    background-size: cover;
     
     
 }
