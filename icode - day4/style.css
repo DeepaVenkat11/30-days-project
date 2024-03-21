@@ -1,0 +1,90 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+   
+
+
+}
+.container{
+    height:280px;
+    width: 280px;
+    border:1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 1px 5px 6px rgb(223, 219, 219,0.7);
+    
+    
+}
+.container img{
+    width:70px;
+    height:70px;
+    margin:10% 35% 10% 35%;
+    align-items: center;
+    border-radius:50%;
+    outline: 6px solid rgb(215, 218, 218);
+}
+.btn-status , .btn-edit, .btn-more{
+    height:50px;
+    width:70px;
+    border:1px solid rgb(206, 203, 203);
+    margin-right:20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top:10px;
+    cursor: pointer;
+}
+.box{
+    margin-left:20px;
+    display: flex;
+    font-size: 10px;  
+}
+.content{
+    margin:-6% 30% 5% 30%;
+}
+.content h1{
+    font-size:18px;
+    font-weight: 700;
+    margin-left:-10%;
+    
+}
+.content h6{
+    font-size: 10px;
+    margin-left:25%;
+}
+.btn-status i,
+.btn-edit i,
+.btn-more i{
+    font-size: 14px;
+}
+.dropdown{
+    display:none;
+}
+.dropdown.show{
+    display:block;
+    height:290px;
+    width:200px;
+    background-color: rgb(1, 1, 53);
+    color: white;
+    font-size: 13px;
+    font-family:sans-serif;
+    padding:15px 20px 15px 15px;
+    margin-top:-30%;
+    margin-left:95%;
+    border-radius:10px;
+}
+.dropdown div{
+    padding:7px;
+}
+.btn-status:hover,
+.btn-edit:hover,
+.btn-more:hover{
+    background-color: rgb(112, 112, 222, 0.5);
+}
+.dropdown.show div:hover{
+    background-color: rgb(112, 112, 222,0.5);
+}
+
